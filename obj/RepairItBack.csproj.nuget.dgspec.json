@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\21656\\Desktop\\front\\RepairItBack\\RepairItBack.csproj": {}
+    "C:\\Users\\Anubis\\Desktop\\springboot\\demo\\RepairItBack\\RepairItBack.csproj": {}
   },
   "projects": {
-    "C:\\Users\\21656\\Desktop\\front\\RepairItBack\\RepairItBack.csproj": {
+    "C:\\Users\\Anubis\\Desktop\\springboot\\demo\\RepairItBack\\RepairItBack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\21656\\Desktop\\front\\RepairItBack\\RepairItBack.csproj",
+        "projectUniqueName": "C:\\Users\\Anubis\\Desktop\\springboot\\demo\\RepairItBack\\RepairItBack.csproj",
         "projectName": "RepairItBack",
-        "projectPath": "C:\\Users\\21656\\Desktop\\front\\RepairItBack\\RepairItBack.csproj",
-        "packagesPath": "C:\\Users\\21656\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\21656\\Desktop\\front\\RepairItBack\\obj\\",
+        "projectPath": "C:\\Users\\Anubis\\Desktop\\springboot\\demo\\RepairItBack\\RepairItBack.csproj",
+        "packagesPath": "C:\\Users\\Anubis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Anubis\\Desktop\\springboot\\demo\\RepairItBack\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\21656\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Anubis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

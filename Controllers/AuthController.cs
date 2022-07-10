@@ -57,7 +57,7 @@ namespace RepairItBack.Controllers
 
 
             var user = _mapper.Map<AppUser>(registerDto);
-            user.UserName = registerDto.FirstName+registerDto.LastName;
+            user.UserName = registerDto.FirstName;
             var result =await _usermanager.CreateAsync(user,registerDto.Password);
             if(!result.Succeeded) return BadRequest(result.Errors);
 

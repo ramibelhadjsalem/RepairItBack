@@ -23,7 +23,7 @@ namespace RepairItBack.Entities
         public String MFFileUrl { get; set; }
      
         
-        public bool Verifed { get; set; } = false;
+        public bool Verifed { get; set; }
 
         public ICollection<AppUserRole> UserRoles { get; set; }
     

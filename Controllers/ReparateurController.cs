@@ -43,7 +43,7 @@ namespace RepairItBack.Controllers
         [HttpGet("best4")]
         public  async Task<IEnumerable<ReparateurResponse>> getBest4()
         {
-            var roleUsers = await _userManager.Users.Where(u => u.UserRoles.Any(r => r.Role.Name == "Reparateur"))
+            var roleUsers = await _userManager.Users.Where(u => u.UserRoles.Any(r => r.Role.Name == "Reparateur") )
                             .OrderByDescending(x=>x.Rating)
                             .ProjectTo<ReparateurResponse>(_mapper.ConfigurationProvider)
                             .Take(4)
@@ -69,12 +69,12 @@ namespace RepairItBack.Controllers
             
         }
         [HttpGet("{id}")]
-        public async Task<ActionResult<ReparateurWithDetailsResponse>> findByid(int id){
+        public async Task<ActionResult<AppUser>> findByid(int id){
           
             var user= await _reparateurService.findReparateurById(id);
             if(user ==null) return NotFound(new ApiException(404,"Reparateur Not found ",null));
           
-            return _mapper.Map<ReparateurWithDetailsResponse>(user);
+            return Ok(user);
         }
     }
 }
